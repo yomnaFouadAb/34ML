@@ -1,45 +1,46 @@
 # 34ML
 
-# 🧠 34ML Web Scraping + AI Chatbot (RAG-based)
+# AI Chatbot 
 
-This project is a smart, context-aware chatbot that scrapes the content of a website (e.g. [34ml.com](https://34ml.com)) and lets users ask natural-language questions about the site.
+This project is an AI-powered chatbot built to explore and understand real website content, specifically built with the 34ML site in mind. It scrapes a live website, extracts meaningful information, and lets users ask questions about the content.
 
 It uses:
-- ✅ **Selenium** for dynamic scraping
-- ✅ **BeautifulSoup** for HTML parsing
-- ✅ **Sentence-Transformers** for chunk embedding
-- ✅ **FAISS** for fast vector-based retrieval
-- ✅ **Together AI (Mistral)** for answering user queries
+- **Selenium** for dynamic scraping
+- **BeautifulSoup** for HTML parsing
+- **Sentence-Transformers** for chunk embedding
+- **FAISS** for fast vector-based retrieval
+- **Together AI (Mistral)** the LLM model used
 
 ---
 
-## 💡 Features
+## Features
 
-- 🔍 Scrapes both visible text and meta tags from dynamic websites
-- 🔁 Chunks and embeds content for efficient search
-- 🧠 Uses a **retrieval-augmented generation (RAG)** approach
-- 💬 Chat interface powered by a large language model
-- ⚡ Can answer questions like:
-  - “What does this company offer?”
-  - “Summarize their blog”
-  - “Write a tweet about their services”
+- Scrapes both visible text and meta tags from dynamic websites
+- Chunks and embeds content for efficient search
+- Chat interface powered by a large language model
+- Can answer questions and generate social media posts 
 
 ---
 
-## 📁 Files
+## Files
 
 - `34ML_Task.ipynb` – the full notebook with scraping, chunking, vector indexing, and chatbot logic
-- `scraper.py` – helper functions for scraping, indexing, and chatting (used in a Streamlit app)
+- `scraper.py` – helper functions for scraping, indexing, and chatting
 - `app.py` – optional frontend for interactive chatting (Streamlit)
-- `requirements.txt` – libraries used (optional)
 
 ---
 
-## 🚀 Quick Start
+## Basic Setup Instructions
 
-```bash
-git clone https://github.com/your-username/34ml-chatbot.git
-cd 34ml-chatbot
-pip install -r requirements.txt
-python app.py  # or open 34ML_Task.ipynb
+1. **Download the notebook file** `34ML_Task.ipynb`
+2. **Upload it to [Google Colab](https://colab.research.google.com/)**
+3. Once open, click **`Runtime > Run all`** to execute all the cells sequentially
+4. The last cell will generate a **public link** to the Streamlit app
+
+Click the link, and your chatbot will be running. 
+
+
+
+
+
 
