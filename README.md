@@ -37,7 +37,7 @@ It uses:
 3. Once open, click **`Runtime > Run all`** to execute all the cells sequentially
 4. The last cell will generate a **public link** to the Streamlit app
 
-Click the link, and your chatbot will be running. 
+Click the link, and copy the website's URL and then the chatbot will be running. 
 
 
 
